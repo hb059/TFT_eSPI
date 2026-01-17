@@ -736,6 +736,9 @@ void TFT_eSPI::init(uint8_t tc)
 #elif defined (HX8357D_DRIVER)
     #include "TFT_Drivers/HX8357D_Init.h"
 
+#elif defined (TFT_NV3007)
+    #include "TFT_Drivers/NV3007_Init.h"
+
 #elif defined (ST7789_DRIVER)
     #include "TFT_Drivers/ST7789_Init.h"
 

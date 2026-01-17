@@ -52,6 +52,8 @@
     #define S6D02A1_DRIVER
 #elif defined (CONFIG_TFT_HX8357D_DRIVER)
     #define HX8357D_DRIVER
+#elif defined (CONFIG_TFT_NV3007_DRIVER)
+    #define NV3007_DRIVER
 #elif defined (CONFIG_TFT_ILI9481_DRIVER)
     #define ILI9481_DRIVER
 #elif defined (CONFIG_TFT_ILI9486_DRIVER)
