@@ -736,7 +736,7 @@ void TFT_eSPI::init(uint8_t tc)
 #elif defined (HX8357D_DRIVER)
     #include "TFT_Drivers/HX8357D_Init.h"
 
-#elif defined (TFT_NV3007)
+#elif defined (NV3007_DRIVER)
     #include "TFT_Drivers/NV3007_Init.h"
 
 #elif defined (ST7789_DRIVER)
@@ -839,6 +839,9 @@ void TFT_eSPI::setRotation(uint8_t m)
 
 #elif defined (HX8357D_DRIVER)
     #include "TFT_Drivers/HX8357D_Rotation.h"
+
+#elif defined (NV3007_DRIVER)
+    #include "TFT_Drivers/NV3007_Rotation.h"
 
 #elif defined (ST7789_DRIVER)
     #include "TFT_Drivers/ST7789_Rotation.h"
