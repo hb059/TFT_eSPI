@@ -40,3 +40,6 @@
 #define TFT_PASET    0x2B
 #define TFT_RAMWR    0x2C
 #define TFT_RAMRD    0x2E
+
+// Delay between some initialisation commands
+#define TFT_INIT_DELAY 0x00 // Not used unless commandlist invoked
