@@ -49,8 +49,8 @@
         rowstart = 0;
       }
 #endif
-#ifdef TFT_COLUMN_OFFSET
-  colstart += TFT_COLUMN_OFFSET;
+#ifdef TFT_ROW_OFFSET
+  rowstart += TFT_ROW_OFFSET;
 #endif
       writedata(TFT_MAD_MX | TFT_MAD_MV | TFT_MAD_COLOR_ORDER);
 
@@ -76,8 +76,8 @@
         rowstart = 0;
       }
 #endif
-#ifdef TFT_COLUMN_OFFSET
-  colstart += TFT_COLUMN_OFFSET;
+#ifdef TFT_ROW_OFFSET
+  colstart += TFT_ROW_OFFSET;
 #endif
       writedata(TFT_MAD_MX | TFT_MAD_MY | TFT_MAD_COLOR_ORDER);
 
@@ -103,7 +103,7 @@
       }
 #endif
 #ifdef TFT_COLUMN_OFFSET
-  colstart += TFT_COLUMN_OFFSET;
+  rowstart += TFT_COLUMN_OFFSET;
 #endif
       writedata(TFT_MAD_MV | TFT_MAD_MY | TFT_MAD_COLOR_ORDER);
 
